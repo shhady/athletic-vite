@@ -11,18 +11,29 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
+    /* position: relative; */
+}
+.galleryPhoto{
+    width: 100%;
+    height: 100%;
 }
 .titleGallery{
     margin:40px 50px;
 }
+.morePhotos{
+    padding: 15px 50px;
+    text-align: end;
+}
 @media (max-width:768px) {
     .gallery{
-        width: 90%;
-        margin: auto;
-        display: grid;
-        grid-template-columns: 1fr;
+        max-width: 80vw;
+        display: flex;
+        overflow-x: scroll;
         
+    }
+    .galleryPhoto{
+        width: 250px;
+        height: 100%;
     }
     .pictureFromGallery{
         display: flex;

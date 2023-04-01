@@ -6,14 +6,13 @@ export default function AboutUs() {
         <div className='imageAboutUs'> <img
               src="https://images.unsplash.com/photo-1616279967983-ec413476e824?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODl8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
               alt="Logo"
-              width={"100%"}
-              height={300}
-              priority
+              className='heroImage'
+              
             /></div>
         <div >
             <div dir='rtl'> 
             <p  style={{textAlign:"start", color:"#348feb"}}>גלה עוד</p>
-            <h1  style={{textAlign:"start", marginBottom:"30px"}}>עלינו</h1>
+            <h1  style={{textAlign:"start", marginBottom:"20px"}}>עלינו</h1>
             </div>
             <div dir='rtl' className='contentAboutUs'>
               <p>המתקן שלנו מצויד בציוד הכושר החדיש ביותר שנועד לתת מענה לכל הגילאים והמינים. המטרה שלנו היא לספק סביבה נוחה וידידותית שבה תוכל להשיג את מטרות הכושר שלך. <br/>
