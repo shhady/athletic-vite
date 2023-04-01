@@ -3,7 +3,10 @@ import "./Gallery.css"
 export default function Gallery() {
   return (
     <div dir='rtl' style={{display:"flex", flexDirection:"column"}}>
+      <div>
+      <p style={{textAlign:"center", color:"#348feb", marginTop:"30px"}}>איך נראה החדר כושר</p>
         <h1 className='titleGallery'>גלריית תמונות</h1>
+        </div>
     <div className='gallery'>
         <div className='pictureFromGallery'>
         <img

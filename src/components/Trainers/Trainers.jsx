@@ -2,7 +2,8 @@ import React from 'react'
 import "./Trainers.css"
 export default function Trainers() {
   return (
-    <div style={{padding:"50px"}}>
+    <div>
+        <p style={{textAlign:"center", color:"yellow", marginTop:"30px"}}>צוות מאמנים מקצועי מומחים בתחומם</p>
     <h1 style={{marginBottom:"30px"}}>מאמנים</h1>
     <div className='trainersHome'>
         

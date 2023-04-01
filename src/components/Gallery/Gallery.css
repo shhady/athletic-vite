@@ -18,7 +18,7 @@
     height: 100%;
 }
 .titleGallery{
-    margin:40px 50px;
+    margin-bottom:30px;
 }
 .morePhotos{
     padding: 15px 50px;
@@ -26,10 +26,10 @@
 }
 @media (max-width:768px) {
     .gallery{
-        max-width: 80vw;
+        margin: auto;
+        max-width: 95vw;
         display: flex;
         overflow-x: scroll;
-        
     }
     .galleryPhoto{
         width: 250px;

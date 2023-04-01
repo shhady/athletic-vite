@@ -1,5 +1,6 @@
 .trainersHome{
-    /* max-width: 90vw; */
+    max-width: 90vw;
+    margin: auto;
     gap:10px;
         display: flex;
         overflow-x: scroll;
@@ -7,7 +8,8 @@
 
 @media (max-width:768px) {
     .trainersHome{
-        /* max-width: 80vw; */
+        margin: auto;
+        max-width: 95vw;
         gap:10px;
             display: flex;
             overflow-x: scroll;
