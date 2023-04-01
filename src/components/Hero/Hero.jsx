@@ -8,7 +8,7 @@ export default function Hero() {
      תתחיל את <br/>  המסע שלך 
      <span className="TODAY"> היום</span>
     </h1>
-    <p>   ותתחיל להתקרב לגוף שחלמת עליו ATHLETIC תצטרף ל</p>
+    <p style={{background:"none"}}>   ותתחיל להתקרב לגוף שחלמת עליו ATHLETIC תצטרף ל</p>
     <div>
      <button className="joinNow">תצטרף עכשיו</button>
     </div>
