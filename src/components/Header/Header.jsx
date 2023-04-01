@@ -22,7 +22,7 @@ const Header = () => {
         </div>
         <div className='instagram'>
           <a target="_blank" href='https://www.instagram.com/athletic.g.y.m/'><img
-              src="/public/Instagram_Glyph_White.png"
+              src="/Instagram_Glyph_White.png"
               alt="Logo"
               width={30}
               height={30}
@@ -30,7 +30,7 @@ const Header = () => {
             /></a>
             <div className='hamburger'>
             <img
-              src="/public/hamburger.png"
+              src="/hamburger.png"
               alt="Logo"
               width={30}
               height={30}

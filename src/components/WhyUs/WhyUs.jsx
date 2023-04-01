@@ -9,7 +9,7 @@ export default function WhyUs() {
         <div className='whyUsContent' dir='rtl'>
             <div className='whyuscards'>
                 <div><a target="_blank" href="https://icons8.com/icon/52406/stepper"><img
-              src="/public/stepper.png"
+              src="/stepper.png"
               alt="Logo"
               width={30}
               height={30}
@@ -24,7 +24,7 @@ export default function WhyUs() {
             </div>
             <div className='whyuscards'>
             <div><a target="_blank" href="https://icons8.com/icon/52406/stepper"><img
-              src="/public/dumbel.png"
+              src="/dumbel.png"
               alt="Logo"
               width={30}
               height={30}
@@ -39,7 +39,7 @@ export default function WhyUs() {
             </div>
             <div className='whyuscards'>
             <div><a target="_blank" href="https://icons8.com/icon/52292/curls-with-dumbbells"><img
-              src="/public/trainer.png"
+              src="/trainer.png"
               alt="Logo"
               width={30}
               height={30}
@@ -54,7 +54,7 @@ export default function WhyUs() {
 </div>
             <div className='whyuscards'>
             <div><a target="_blank" href="https://icons8.com/icon/52406/stepper"><img
-              src="/public/pilates.png"
+              src="/pilates.png"
               alt="Logo"
               width={30}
               height={30}
