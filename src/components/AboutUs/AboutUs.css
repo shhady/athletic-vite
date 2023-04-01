@@ -1,0 +1,36 @@
+.ABOUTUS{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+
+}
+.imageAboutUs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contentAboutUs{
+    display: flex;
+    /* flex-direction: column; */
+    justify-self: center;
+    align-items: center;
+    padding: 10px 10px;
+}
+
+@media (max-width: 768px) {
+    .ABOUTUS{
+        display:flex;
+        flex-direction: column-reverse;
+        padding: 10px;
+    }
+    .contentAboutUs{
+        margin-bottom: 30px;
+    }
+    .imageAboutUs{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 20px;
+    }
+}

@@ -1,0 +1,24 @@
+.prices{
+    padding: 20px 60px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 2rem;
+}
+
+.PriceCards{
+    border: 1px solid grey;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+@media (max-width:768px) {
+    .prices{
+        padding: 10px 10px;
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 2rem;
+    }
+}

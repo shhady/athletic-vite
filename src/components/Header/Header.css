@@ -1,0 +1,37 @@
+.header{
+    width: 100vw;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.headerMiddle{
+    width: 35vw;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.instagram{
+    margin-right: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hamburger{
+    display: none;
+}
+@media (max-width:768px) {
+ .headerMiddle{
+    display: none;
+ }   
+ .instagram{
+    margin-right: 3px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hamburger{
+    display: block;
+    margin-left: 15px;
+}
+}

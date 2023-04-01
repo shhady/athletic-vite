@@ -1,0 +1,36 @@
+.gallery{
+    height: 40vh;
+    width: 90%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap:10px
+}
+.pictureFromGallery{
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+.titleGallery{
+    margin:40px 50px;
+}
+@media (max-width:768px) {
+    .gallery{
+        width: 90%;
+        margin: auto;
+        display: grid;
+        grid-template-columns: 1fr;
+        
+    }
+    .pictureFromGallery{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+    }
+    .titleGallery{
+        text-align: center;
+    }
+}
