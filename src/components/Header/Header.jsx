@@ -1,8 +1,14 @@
-import React from 'react'
+import React, {useState} from 'react'
 
 import "./Header.css"
 
 const Header = () => {
+
+  const [menu, setMenu] = useState(false)
+
+const openMenu = ()=>{
+  setMenu(!menu)
+}
   return (
     <div className='header'>
         <div> <img
@@ -28,7 +34,7 @@ const Header = () => {
               height={30}
               priority
             /></a>
-            <div className='hamburger'>
+            <div className='hamburger' onClick={openMenu}>
             <img
               src="/hamburger.png"
               alt="Logo"
@@ -37,7 +43,14 @@ const Header = () => {
               priority
             />
             </div>
-
+            {menu ?  <div className='headerMenu' dir='rtl'>
+              <div onClick={openMenu} className='menuC'>X</div>
+              <h2 className='menuC'>חוגים</h2>
+              <h2 className='menuC'>מחירים</h2>
+              <h2 className='menuC'>גלריה</h2>
+          <h2 className='menuC'>מאמנים</h2>
+        <h2 className='menuC'>צור קשר</h2>  
+        </div>:null}
             </div>
     </div>
   )
