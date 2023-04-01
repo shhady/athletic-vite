@@ -19,12 +19,13 @@
   
   }
   .TODAY{
-    color:yellow
+    color:yellow;
+    background: transparent;
   }
   .TITLE{
     text-align: center;
     font-size: 50px;
-    background-color: transparent;
+    background: transparent;
   }
   
   .joinNow{
