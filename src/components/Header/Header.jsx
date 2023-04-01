@@ -16,7 +16,7 @@ const openMenu = ()=>{
               alt="Logo"
               width={100}
               height={30}
-              priority
+
             /></div>
         <div className='headerMiddle'>
         <div>צור קשר</div>

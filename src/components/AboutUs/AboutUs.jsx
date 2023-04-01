@@ -6,7 +6,7 @@ export default function AboutUs() {
         <div className='imageAboutUs'> <img
               src="https://images.unsplash.com/photo-1616279967983-ec413476e824?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxzZWFyY2h8ODl8fGd5bXxlbnwwfHwwfHw%3D&auto=format&fit=crop&w=500&q=60"
               alt="Logo"
-              width={400}
+              width={"100%"}
               height={300}
               priority
             /></div>
